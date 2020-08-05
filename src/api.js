@@ -15,7 +15,6 @@ module.exports = {
       return fetch(url, getHeader);
     },
     getSpelling(data) {
-      console.log(data)
       const url = `${host}/spelling/?id=${data.id}&speltWord=${data.word}`;
       return fetch(url, getHeader);
     }
