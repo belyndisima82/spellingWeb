@@ -1,0 +1,192 @@
+// Absolute Imports
+@import '~antd/dist/antd.css';
+@import 'style/_colors.scss';
+@import 'style/_variables.scss';
+
+.view-container {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+}
+
+body {
+  background: $view-background;
+  color: $lighter-text;
+
+  .gray-background {
+    background: $light-gray;
+  }
+
+  .red-background {
+    background: $brand-color;
+  }
+
+  .green-background {
+    background: $green-color;
+  }
+
+  .inner-vertical-padding {
+    padding-top: $big-spacing * 2;
+    padding-bottom: $big-spacing * 2;
+  }
+
+  .droptarget {
+    font-size: 40px !important;
+    color: $dark-gray;
+  }
+
+  // Headings
+h1 {
+  font-size: $h1-font-size;
+  color: $lighter-text;
+}
+
+h2 {
+  font-size: $h2-font-size;
+  color: $lighter-text;
+}
+
+h3 {
+  font-size: $h3-font-size;
+  color: $green-color;
+}
+
+h4 {
+  font-size: $h4-font-size;
+  color: $lighter-text;
+}
+
+h5 {
+  font-size: $h5-font-size;
+  color: $lighterBlue-color;
+}
+
+// Text
+p {
+  font-size: $paragraph-text-size;
+}
+
+.bold-text {
+  font-size: 60px;
+  color: $darkBlue-color;
+}
+
+.gray-bold-text {
+  font-size: 60px;
+  color: $lighter-text;
+}
+
+.white-text {
+  color: $inverse-color !important;
+}
+
+.green-text {
+  color: $green-color;
+}
+
+.red-text {
+  color: $brand-color;
+}
+
+.gray-text {
+  color: $lighter-text;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.md-width {
+  width: 80%;
+}
+
+.btn-width {
+  width: 30%;
+}
+
+.margin-bottom-md {
+  margin-bottom: 30px;
+}
+
+.margin-top-md {
+  margin-top: 15px;
+}
+
+.padding-top-lg {
+  margin-top: 20%;
+}
+
+.left-text {
+  text-align: left;
+}
+
+
+// Buttons
+.submit-button {
+  width: 100%;
+  border: none;
+  text-align: center;
+  padding-top: $medium-spacing;
+  padding-bottom: $medium-spacing;
+  border-radius: $regular-spacing;
+  background-color: $green-color;
+  color: $inverse-color;
+}
+
+.ant-btn-primary {
+    background: $green-color !important;
+    border-color: $green-color !important;
+  
+    &:hover,
+    &:focus,
+    &:active {
+      background: $green-shadow2 !important;
+      border-color: $green-shadow2 !important;
+    }
+  }
+  .ant-btn-regular {
+    background: $inverse-color;
+    border-color: $green-color;
+    color: $green-color;
+  
+    &:hover,
+    &:focus,
+    &:active {
+      background: $green-shadow1;
+      color: $inverse-color !important;
+    }
+  }
+
+  .btn-lg {
+    padding: 10px 16px;
+    font-size: 20px !important;
+    height: 46px !important;
+    margin-bottom: 5px;
+  }
+
+  .btn-md {
+    font-size: 18px;
+    height: 38px !important;
+    margin-bottom: 5px;
+  }
+  
+  .btn-green {
+    padding: 10px 5px;
+    height: auto;
+    &:hover,
+    &:active,
+    &:focus{
+      background: $green-shadow2 !important;
+      border-color: $green-shadow2 !important;
+    }
+  }
+
+  .btn-white {
+    &:hover,
+    &:active,
+    &:focus{
+      background: $green-shadow1 !important;
+    border-color: $green-shadow2 !important;
+    }
+  }
+}
