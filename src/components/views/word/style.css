@@ -16,6 +16,9 @@ body {
   body .inner-vertical-padding {
     padding-top: 30px;
     padding-bottom: 30px; }
+  body .droptarget {
+    font-size: 40px !important;
+    color: #303030; }
   body h1 {
     font-size: 42px;
     color: #707070; }
@@ -85,7 +88,7 @@ body {
       color: #FFF !important; }
   body .btn-lg {
     padding: 10px 16px;
-    font-size: 18px;
+    font-size: 20px !important;
     height: 46px !important;
     margin-bottom: 5px; }
   body .btn-md {
